@@ -1,6 +1,6 @@
 public class Solution {
     public static int maxMultiplesOf3(int[] arr) {
-        int max = 0;
+        int max = arr[0];
 
         for (int i : arr)
             if (i % 3 == 0 && i > max)
