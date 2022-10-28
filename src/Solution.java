@@ -9,7 +9,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Integer[] myArrayTest = {-100, -102, -1005, -200, -333, -8, -99, -0, -342};
+        Integer[] myArrayTest = {-100, -102, -200, 333, -8, -99, -30, -342, 300, 1011};
         System.out.println(maxMultiplesOf3(myArrayTest));
     }
 }
